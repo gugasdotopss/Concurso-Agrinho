@@ -1,0 +1,106 @@
+{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5a3304b3;
+    height: 80px;
+
+}
+
+header h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.responsiva {
+    max-width: 100%;
+}
+
+.box-txt {
+    display: flex;
+    flex-flow: row wrap;
+    width: 35%;
+    /* border: 1px solid green; */
+}
+
+.btn-botton{
+    background: #556b2f;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.box-txt span {
+    color: rgb(78, 76, 76);
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.box-txt h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    color: #3e2302;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+.box-txt p {
+    color: rgb(44, 43, 43);
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    text-align: justify;
+
+}
+
+.btn-hero {
+    background: #556b2f;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: #587a5c;
+    height: 150px;
+    color: white;
+    font-size: 22px;
+}
